@@ -57,17 +57,17 @@ To translate a specific `.vm` file into a `.asm` file:
 python3 Main.py path/to/File.vm
 1. Translate a Single File
 python3 Main.py path/to/File.vm
+```
 2. Translate a Directory
 To translate all .vm files in a directory (and add bootstrap code):
 
-Bash
-
+```Bash
 python3 Main.py path/to/Directory/
+```
 Output: The translator creates a single .asm file named after the input file or directory (e.g., Directory.asm) in the same location.
 
-📂 Project Structure
-Plaintext
-
+## 📂 Project Structure
+```Plaintext
 .
 ├── Makefile            # Execution script (if applicable)
 ├── Main.py             # Entry point / Driver code
